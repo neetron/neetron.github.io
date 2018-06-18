@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#main {
+	height: 100vh;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#title {
+	background-size: cover;
+	border: solid transparent;
+	border-width: 15px 30px;
+	color: white;
+	font-size: 200%;
+	font-family: "Exo", sans-serif;
+}
+
+#nav {
+	height: 1%;
+	background-color: #000055;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#navbar {
+	border-collapse: collapse;
+	color: white;
+	width: 100%;
+}
+
+#navitems td:first-child {
+	width: auto;
+}
+
+#navitems td {
+	border: solid transparent;
+	border-width: 10px 20px;
+	white-space: nowrap;
+	width: 1%;
+}
+
+#items-td {
+	height: 100%;
+	position: relative;
+}
+#items-td { padding: 0; }
+#items {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.item {
+	height: auto;
+	background-color: #eeeeff;
+}
+
+tr.item {
+}
+
+.item td {
+	padding: 0px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+}
